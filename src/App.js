@@ -17,6 +17,7 @@ import NotFound from './components/pages/Contact';
 // styling
 import './App.css';
 
+
 function App() {
   return (
    
