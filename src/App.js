@@ -22,11 +22,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="mw5 mw8-ns center bg-light-gray pa2">
+    <div className="container">
         <Router>
           <div className='App'>
             <Navbar />
-            
             
             <div className=''>
               <Switch>

@@ -4,45 +4,31 @@ import {Link} from 'react-router-dom'
 
 const Navbar = ( ) => {
   return (
-    <header className="bg-white black-80 tc pv4 avenir">
-       <h1 className="mt2 mb0 baskerville i fw1 f1">ALEXANDER BERNHARDT LIBRARY</h1>
-       <h2 className="mt2 mb0 f6 fw4 ttu tracked">An initiate of Alexander Bernhardt Grail Publishing Company</h2>
-      <div className='bt bb tc mw8 center mt3'>
-        <ul>
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/'>Home</Link></li>
-          </div>
-          
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/about'>About</Link></li>
-          </div>
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/services'>Services</Link></li>
-          </div>
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/eresources'>Eresources</Link></li>
-          </div>
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/register'>Register</Link></li>
-          </div>
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/blog'>Blog</Link></li>
-          </div>
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/contact'>Contact</Link></li>
-          </div>
-          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
-            <li><Link to='/book-hall'>Rent Hall</Link></li>
-          </div>
-          <div className="link dim gray    f6 f5-ns dib mr3" href="#" title="About">
-        
-          </div>
+  <header className="header-nav" role="banner">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div className="container-fluid">  
+        <div className="navbar-brand">Alexander Bernhardt Library </div>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
 
-        </ul>
-
+              <ul className="navbar-nav ml-auto">
+                  <li className="nav-link active"><Link to='/'>Home</Link></li>        
+                  <li className="nav-link"><Link to='/about'>About</Link></li>
+                  <li className="nav-link"><Link to='/services'>Services</Link></li>
+                  <li className="nav-link"><Link to='/eresources'>Eresources</Link></li>
+                  <li className="nav-link"><Link to='/register'>Register</Link></li>
+                  <li className="nav-link"><Link to='/blog'>Blog</Link></li>
+                  <li className="nav-link"><Link to='/contact'>Contact</Link></li>
+                  <li className="nav-link"><Link to='/book-hall'>Rent Hall</Link></li>
+              </ul>
+    
+            </div>
       </div>
+  </nav>
+</header>
 
-    </header>
     
   )
 }

@@ -3,34 +3,28 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className="">
-            <div className="f3-m">
-                <h1>Our Services</h1>
-            </div>
-            <div>
-                <p>
-                    We offer condusive study enviroment with matured ambiance. Members of
-                    the public can register and study at their comfort.
-                </p>
-                <p>
-                    Our library hall with the capacity to accomodate up to 
-                    40 persons is also available and can be rented for seminar 
-                    presentations, public lectures, toturial sessions or any other academic related event.
+    <div className="row welcome text-center">
+        <div className="col-12">
+            <h1 className="display-4">Services </h1>
 
-                    We also offer public lecture series tagged Alexander Bernhardt Library Series
-                </p>
-                <p>
-                    Our library hall with the capacity to accomodate up to 
-                    40 persons is also available and can be rented for seminar 
-                    presentations, public lectures, toturial sessions or any other academic related event.
+            <hr />
+            <div className="col-12">
 
-                    We also offer public lecture series tagged Alexander Bernhardt Library Series
+                <p className="lead"> We offer condusive study enviroment with matured ambiance. Members of the
+                    public
+                    can
+                    <a href="inc/register.php">register</a> and study at their comfort.</p>
+                <p className="lead">Our library hall with the capacity to accomodate
+                    up to 40 persons is also available and can be <a href="inc/renthall.php">rented</a> for seminar
+                    presentations,
+                    public lectures, toturial sessions or any other academic related event.</p>
+                <p className="lead">
+                    We also offer public lecture series tagged <strong>Alexander Bernhardt Library
+                        Series</strong>
                 </p>
             </div>
-           
-
-            
         </div>
+    </div>
     )
 }
 
