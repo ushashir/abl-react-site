@@ -8,24 +8,27 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Services from './components/pages/Services';
 import Eresources from './components/pages/Eresources';
-import Register from './components/pages/Register';
 import UserManual from './components/pages/UserManual';
 import Blog from './components/pages/Blog';
-import Contact from './components/pages/Contact';
-import NotFound from './components/pages/Contact';
-
+import Footer from './components/pages/Footer';
+import NotFound from './components/pages/NotFound';
+// forms
+import Register from './components/forms/Register';
+import Contact from './components/forms/Contact';
+import RentHall from './components/forms/RentHall';
 // styling
 import './App.css';
 
 
 function App() {
   return (
-   
-
+    <div className="mw5 mw8-ns center bg-light-gray pa2">
         <Router>
           <div className='App'>
             <Navbar />
-            <div className='container'>
+            
+            
+            <div className=''>
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/about' component={About} />
@@ -35,13 +38,16 @@ function App() {
                 <Route exact path='/blog' component={Blog} />
                 <Route exact path='/contact' component={Contact} />
                 <Route exact path='/usermanual' component={UserManual} />
+                <Route exact path='/book-hall' component={RentHall} />
                 <Route component={NotFound} />
               </Switch>
+
+              <Footer />
             </div>
           </div>
+          
         </Router>
-      
-   
+      </div>
   );
 }
 

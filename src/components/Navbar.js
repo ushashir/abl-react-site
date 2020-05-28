@@ -12,6 +12,7 @@ const Navbar = ( ) => {
           <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
             <li><Link to='/'>Home</Link></li>
           </div>
+          
           <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
             <li><Link to='/about'>About</Link></li>
           </div>
@@ -30,9 +31,9 @@ const Navbar = ( ) => {
           <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
             <li><Link to='/contact'>Contact</Link></li>
           </div>
-
-
-
+          <div className="f6 f5-l link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l">
+            <li><Link to='/book-hall'>Rent Hall</Link></li>
+          </div>
           <div className="link dim gray    f6 f5-ns dib mr3" href="#" title="About">
         
           </div>
