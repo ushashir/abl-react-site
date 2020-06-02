@@ -2,7 +2,6 @@ import React from 'react';
 
 import About from './About';
 import Services from './Services';
-import Col4Div from './Col4Div';
 import AblSeries from './AblSeries';
 import Contact from '../forms/Contact';
 
@@ -12,10 +11,13 @@ const Home = () => {
             <img alt="logo" src={ require('../img/bg.jpg') } />
 
             <About />
+            <br /> <br /> <br /> <br />
             <Services />
-            <Col4Div />
+            <br /> <br /> <br /> <br />
             <AblSeries />
-            <Contact />     
+            <br /> <br /> <br /> <br />
+            <Contact />
+                 
         </div>
     )
 }

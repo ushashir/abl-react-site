@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Col4Div = () => {
     return (
@@ -26,7 +27,7 @@ const Col4Div = () => {
                                 <p className="card-text">Our library hall with the capacity to accommodate
                                     up to 40 persons is also available and can be Rented for seminar presentations,
                                     public lectures, toturial sessions or any other academic related event.</p>
-                                <a href="inc/renthall.php" className="btn btn-outline-secondary">Rent Here</a>
+                                <p className="btn btn-outline-secondary"> <Link to='/book-hall'>Rent Here</Link> </p>
                             </div>
                             <img className="card-imd-top" src={require ("../img/renthall2.jpg")} alt="hall" />
                         </div>

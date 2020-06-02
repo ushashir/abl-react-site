@@ -40,7 +40,7 @@ function App() {
                 <Route exact path='/book-hall' component={RentHall} />
                 <Route component={NotFound} />
               </Switch>
-
+              <br /> <br /> <br />
               <Footer />
             </div>
           </div>

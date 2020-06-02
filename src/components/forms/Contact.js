@@ -15,16 +15,13 @@ const Contact = () => {
                     </p>
                 </div>
             </div>
-        </div>
-        
-            <div className="row padding">
-                <div className="col-md-12 col-lg-6">
+
+
+            <div className="col-lg-6">
+            <div className="col-md-6 col-lg-6">
                 <h3><i className="fa fa-comments small-icons bk-color-red"></i>Message Us Here!</h3>
-                </div>
                 <hr /> 
             </div>
-
-                
                 <form >
                     <div className="row">
                         <div className="col-md-6 col-sm-6">
@@ -50,6 +47,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </form>
+                </div>
                 
                 <div className="col-lg-6">
                     <h3><i className="fa fa-comments small-icons bk-color-red"></i>Reach Us Here</h3>
@@ -64,6 +62,7 @@ const Contact = () => {
                         
                     </div>
                 </div>
+            </div>
         </div>
     )
 }
